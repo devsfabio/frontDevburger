@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 export const api = axios.create({
-  baseURL: 'devburgerfb.netlify.app',
+  baseURL: 'http://localhost:3001',
 });
 
 api.interceptors.request.use((config) => {
